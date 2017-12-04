@@ -1,0 +1,32 @@
+.boxes1, .boxes2 {
+  border: 3px solid;
+  width: 500px;
+}
+
+.box {
+  width: 100px;
+}
+
+.box1 {
+  background-color: #f44b42;
+}
+
+.box2 {
+  background-color: #652b91;
+}
+
+.box3 {
+  background-color: #e8c414;
+}
+
+.box4 {
+  background-color: #2e8acc;
+}
+
+.box5 {
+  background-color: #a51381;
+}
+
+.box6 {
+  background-color: #d67908;
+}
