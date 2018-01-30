@@ -5,8 +5,6 @@
 - Right now, we have two sections, each with 6 boxes (each 100px in width).
 - We have not set the width on the `.boxes` sections so they are taking up the entire width of the page.
 
-![Slide 1](../misc/images/flexbox_1.png)
-
 #### Display: flex;
 
 - First things first, we want all of those boxes in the `section class="boxes-1` to be in a row, not a column but because of the default properties of a `div` being block, each one of these boxes is stacked on top of each other.
@@ -21,8 +19,6 @@
 
 - This tells our `boxes-1` to turn into a flex container that we can now play with
 - By default, this property aligns elements inline within that container
-
-![Slide 2](../misc/images/flexbox_2.png)
 
 - What happened?
 - Our boxes are set to their width of 100px and now in a row.
@@ -64,8 +60,6 @@
       flex-direction: row-reverse;
     }
   ```
-
-![Slide 3](../misc/images/flexbox_3.png)
 
 - A shorthand for both `flex-wrap` and `flex-direction` is `flex-flow`
 
